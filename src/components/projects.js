@@ -40,7 +40,7 @@ class Projects extends Component {
                       href="https://walkforr.github.io/employeeDirectHW/" >VIEW APP</a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} 
+                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
                     href="https://github.com/walkforr/employeeDirectHW" >REPO</a>
                   </p>
                 </div>
@@ -74,7 +74,7 @@ class Projects extends Component {
                       href="https://tranquil-cliffs-31043.herokuapp.com/" >VIEW APP</a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} 
+                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
                     href="https://github.com/walkforr/EmployeeFinder" >REPO</a>
                   </p>
                 </div>
@@ -114,7 +114,7 @@ class Projects extends Component {
                       href="https://safe-stream-27024.herokuapp.com/" >VIEW APP</a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} 
+                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
                     href="https://github.com/jtmccormick18/project1" >REPO</a>
                   </p>
                 </div>
@@ -150,7 +150,7 @@ class Projects extends Component {
                       href="https://desolate-spire-26134.herokuapp.com/" >VIEW APP</a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} 
+                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
                     href="https://github.com/walkforr/Kudos" >REPO</a>
                   </p>
                 </div>
@@ -181,7 +181,7 @@ class Projects extends Component {
                       href="https://limitless-sea-42221.herokuapp.com/" >VIEW APP</a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} 
+                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
                     href="https://github.com/walkforr/wfPortfolio" >REPO</a>
                   </p>
                 </div>
