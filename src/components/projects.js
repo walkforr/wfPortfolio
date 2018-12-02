@@ -147,7 +147,7 @@ class Projects extends Component {
                 <div className="appLinks">
                   <p>
                     <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                      href="https://thawing-forest-99924.herokuapp.com/" >VIEW APP</a>
+                      href="https://desolate-spire-26134.herokuapp.com/" >VIEW APP</a>
                   </p>
                   <p>
                     <a style={{ textDecoration: "none" }} 
@@ -178,7 +178,7 @@ class Projects extends Component {
                 <div className="appLinks">
                   <p>
                     <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                      href="https://thawing-forest-99924.herokuapp.com/" >VIEW APP</a>
+                      href="https://limitless-sea-42221.herokuapp.com/" >VIEW APP</a>
                   </p>
                   <p>
                     <a style={{ textDecoration: "none" }} 
@@ -219,7 +219,7 @@ class Projects extends Component {
                       href="https://jtmccormick18.github.io/project1/" >VIEW APP</a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} 
+                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
                     href="https://github.com/jtmccormick18/project1" >REPO</a>
                   </p>
                 </div>
@@ -253,7 +253,7 @@ class Projects extends Component {
                       href="https://warm-earth-30735.herokuapp.com/" >VIEW APP</a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} 
+                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
                     href="https://github.com/walkforr/GrocerEasy" >REPO</a>
                   </p>
                 </div>
