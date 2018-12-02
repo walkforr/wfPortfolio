@@ -8,77 +8,88 @@ import Skills from './skills';
 class Resume extends Component {
   render() {
     return(
-      <div>
+      <div className="resume-content">
         <Grid>
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
-              <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-                alt="avatar"
-                style={{height: '200px'}}
-                 />
+            <img
+              src="https://i.imgur.com/TUAzggY.jpg"
+              alt="avatar"
+              className="avatar-img"
+            />
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Walker Forrester</h2>
-            <h4 style={{color: 'grey'}}>Programmer</h4>
+            <h4 style={{color: 'grey'}}>Software Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>Junior Full Stack Web Developer able to build a Web presence from the ground up.
+Skilled at writing reusable and modern code as well as working under pressure and meeting deadlines.
+Fast learner, extremely hard worker and team player who is constantly improving and pushing hisself to learn more.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>5475 Kent Rock RD, Loganville, GA, 30052</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>470-373-3117</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <p>walker@empirex.tech</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2018}
+              schoolName="Georgia Tech Coding Bootcamp"
+              schoolDescription="Learned the fundamentals of Frontend and Backend. Worked on group projects inside of Github. Experience with object oriented and functional programming."
                />
-               <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                  />
                 <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Experience</h2>
-            <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-              />
               <Experience
-                startYear={2012}
+                startYear={2014}
+                endYear={2018}
+                jobName="Music Producer/Engineer"
+                jobDescription="Freelance beat producer and audio engineer. Experience in meeting customers needs + paying attention to detail + bringing an artistic approach to the work space."
+                />
+                <Experience
+                startYear={2014}
+                endYear={2015}
+                jobName="Hatcher Electric"
+                jobDescription="Worked as an electrician assistant dealing with problem solving and beating deadlines. Experience working long hours + learning how to work with others."
+                />
+                <Experience
+                startYear={2015}
                 endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                jobName="Accurate Fence"
+                jobDescription="Built fences as a laborer. Experience working long hours + talking with customers and meeting their needs + working to beat deadlines + problem solving."
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
                 skill="javascript"
-                progress={100}
+                progress={90}
                 />
                 <Skills
-                  skill="HTML/CSS"
-                  progress={80}
+                  skill="CSS/SCSS"
+                  progress={90}
                   />
                   <Skills
                     skill="NodeJS"
-                    progress={50}
+                    progress={90}
+                    />
+                    <Skills
+                    skill="MongoDB"
+                    progress={75}
+                    />
+                    <Skills
+                    skill="MySQL"
+                    progress={75}
                     />
                     <Skills
                       skill="React"
-                      progress={25}
+                      progress={40}
+                      />
+                      <Skills
+                      skill="Swift"
+                      progress={15}
                       />
           </Cell>
         </Grid>

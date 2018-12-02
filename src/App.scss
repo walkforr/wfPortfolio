@@ -205,48 +205,78 @@ $font-secondary: 'Oxygen', sans-serif;
   
 }
 
-//contact
-.contact-body {
-  margin: auto;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 2em;
+//contact\\
+.contact-form {
+  position: relative;
 }
 
-.contact-grid {
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 550px;
-  background: white;
-  color: $color-primary;
-  margin-bottom: 20px;
-
-  h2 {
-    font-family: $font-primary;
-  }
-
-  p {
-    font-family: $font-secondary;
-    font-weight: bold;
-  }
-
-  hr {
-    border-top: 5px dotted black;
-    width: 50%;
-    margin: auto;
-  }
+.contact {
+  position: absolute;
+  left: 22%;
+  animation-name: moveInTop;
+  animation-duration: 1s;
 }
 
+.contact-title {
+  font-family: Kanit;
+  margin-top: 100px;
+  color: black;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.contact-title h2 {
+  font-size: 16px;
+}
+
+form {
+  margin-top: 50px;
+  
+  transition: all 4s ease-in-out;
+
+  .submit {
+    background: black;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 2px;
+  
+  &:hover {
+    background-color: grey;
+    cursor: pointer;
+  }
+  }
+
+}
+
+.form-control {
+  
+  width: 600px;
+  min-width: 20vw;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
 .avatar-img {
   height: 250px;
-}
-
-.contact-list i {
-  font-size: 50px;
-  padding-right: 5rem;
+  border-radius: 2px;
 }
 
 //resume
@@ -255,12 +285,30 @@ $font-secondary: 'Oxygen', sans-serif;
   color: white;
 }
 
+.resume-content {
+  animation-name: moveInTop;
+  animation-duration: 1s;
+}
+
+//about
+.about {
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+
+  animation-name: moveInTop;
+  animation-duration: 1.5s;
+}
+
 @media only screen and (max-width: 768px) {
 
 
-  .projects-grid {
-    
-  }
+ .contact {
+   width: 200px;
+ }
+ .form-control {
+   width: 400px;
+ }
 
 }
 
@@ -268,6 +316,14 @@ $font-secondary: 'Oxygen', sans-serif;
   .projects {
     flex-direction: column;
   }
+
+  .contact {
+    width: 200px;
+  }
+  .form-control {
+    width: 250px;
+  }
+
 }
 
 @keyframes moveInLeft {
