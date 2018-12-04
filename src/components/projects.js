@@ -27,26 +27,26 @@ class Projects extends Component {
               <div className="back">
                 <h4>CryptPro</h4>
                 <div className="appLinks">
-                  <p>
+                  
                     <a
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
                       href="https://walkforr.github.io/employeeDirectHW/"
                     >
-                      VIEW APP
+                      <p>VIEW APP</p>
                     </a>
-                  </p>
-                  <p>
+                  
+                  
                     <a
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
                       href="https://github.com/walkforr/employeeDirectHW"
                     >
-                      REPO
+                      <p>REPO</p>
                     </a>
-                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -73,26 +73,26 @@ class Projects extends Component {
               <div className="back">
                 <h4>CryptPro</h4>
                 <div className="appLinks">
-                  <p>
+                  
                     <a
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
                       href="https://tranquil-cliffs-31043.herokuapp.com/"
                     >
-                      VIEW APP
+                      <p>VIEW APP</p>
                     </a>
-                  </p>
-                  <p>
+                  
+                  
                     <a
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
                       href="https://github.com/walkforr/EmployeeFinder"
                     >
-                      REPO
+                      <p>REPO</p>
                     </a>
-                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -125,26 +125,26 @@ class Projects extends Component {
               <div className="back">
                 <h4>CryptPro</h4>
                 <div className="appLinks">
-                  <p>
+                  
                     <a
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
                       href="https://safe-stream-27024.herokuapp.com/"
                     >
-                      VIEW APP
+                      <p>VIEW APP</p>
                     </a>
-                  </p>
-                  <p>
+                  
+                  
                     <a
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
                       href="https://github.com/jtmccormick18/project1"
                     >
-                      REPO
+                      <p>REPO</p>
                     </a>
-                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -173,26 +173,26 @@ class Projects extends Component {
               <div className="back">
                 <h4>CryptPro</h4>
                 <div className="appLinks">
-                  <p>
+                  
                     <a
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
                       href="https://desolate-spire-26134.herokuapp.com/"
                     >
-                      VIEW APP
+                      <p>VIEW APP</p>
                     </a>
-                  </p>
-                  <p>
+                  
+                  
                     <a
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
                       href="https://github.com/walkforr/Kudos"
                     >
-                      REPO
+                      <p>REPO</p>
                     </a>
-                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -216,26 +216,26 @@ class Projects extends Component {
               <div className="back">
                 <h4>CryptPro</h4>
                 <div className="appLinks">
-                  <p>
+                 
                     <a
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
                       href="https://limitless-sea-42221.herokuapp.com/"
                     >
-                      VIEW APP
+                      <p>VIEW APP</p>
                     </a>
-                  </p>
-                  <p>
+                  
+                  
                     <a
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
                       href="https://github.com/walkforr/wfPortfolio"
                     >
-                      REPO
+                      <p>REPO</p>
                     </a>
-                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -307,16 +307,16 @@ class Projects extends Component {
               <div className="back">
                 <h4>CryptPro</h4>
                 <div className="appLinks">
-                  <p>
+                  
                     <a
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
                       href="https://warm-earth-30735.herokuapp.com/"
                     >
-                      VIEW APP
+                      <p>VIEW APP</p>
                     </a>
-                  </p>
+                  
                   <a
                     style={{ textDecoration: "none" }}
                     rel="noopener noreferrer"
