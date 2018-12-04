@@ -1,11 +1,5 @@
 import React, { Component } from "react";
-import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
-} from "react-mdl";
-
+import { Tabs, Tab, Grid, Cell } from "react-mdl";
 
 class Projects extends Component {
   state = {
@@ -16,8 +10,6 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
-          
-
           <div
             shadow={5}
             style={{ minWidth: "450", margin: "20px" }}
@@ -36,12 +28,24 @@ class Projects extends Component {
                 <h4>CryptPro</h4>
                 <div className="appLinks">
                   <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                      href="https://walkforr.github.io/employeeDirectHW/" >VIEW APP</a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://walkforr.github.io/employeeDirectHW/"
+                    >
+                      VIEW APP
+                    </a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                    href="https://github.com/walkforr/employeeDirectHW" >REPO</a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://github.com/walkforr/employeeDirectHW"
+                    >
+                      REPO
+                    </a>
                   </p>
                 </div>
               </div>
@@ -70,12 +74,24 @@ class Projects extends Component {
                 <h4>CryptPro</h4>
                 <div className="appLinks">
                   <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                      href="https://tranquil-cliffs-31043.herokuapp.com/" >VIEW APP</a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://tranquil-cliffs-31043.herokuapp.com/"
+                    >
+                      VIEW APP
+                    </a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                    href="https://github.com/walkforr/EmployeeFinder" >REPO</a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://github.com/walkforr/EmployeeFinder"
+                    >
+                      REPO
+                    </a>
                   </p>
                 </div>
               </div>
@@ -110,12 +126,24 @@ class Projects extends Component {
                 <h4>CryptPro</h4>
                 <div className="appLinks">
                   <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                      href="https://safe-stream-27024.herokuapp.com/" >VIEW APP</a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://safe-stream-27024.herokuapp.com/"
+                    >
+                      VIEW APP
+                    </a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                    href="https://github.com/jtmccormick18/project1" >REPO</a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://github.com/jtmccormick18/project1"
+                    >
+                      REPO
+                    </a>
                   </p>
                 </div>
               </div>
@@ -130,7 +158,7 @@ class Projects extends Component {
             <div className="card-content">
               <div className="front">
                 <h4>Kudos</h4>
-                
+
                 <div className="techBoxes">
                   <p>html</p>
                   <p>css</p>
@@ -143,21 +171,33 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="back">
-              <h4>CryptPro</h4>
+                <h4>CryptPro</h4>
                 <div className="appLinks">
                   <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                      href="https://desolate-spire-26134.herokuapp.com/" >VIEW APP</a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://desolate-spire-26134.herokuapp.com/"
+                    >
+                      VIEW APP
+                    </a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                    href="https://github.com/walkforr/Kudos" >REPO</a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://github.com/walkforr/Kudos"
+                    >
+                      REPO
+                    </a>
                   </p>
                 </div>
               </div>
             </div>
           </div>
-             
+
           <div
             shadow={5}
             style={{ minWidth: "450", margin: "20px" }}
@@ -166,7 +206,7 @@ class Projects extends Component {
             <div className="card-content">
               <div className="front">
                 <h4>Portfolio</h4>
-                
+
                 <div className="techBoxes">
                   <p>scss</p>
                   <p>js</p>
@@ -174,21 +214,32 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="back">
-              <h4>CryptPro</h4>
+                <h4>CryptPro</h4>
                 <div className="appLinks">
                   <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                      href="https://limitless-sea-42221.herokuapp.com/" >VIEW APP</a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://limitless-sea-42221.herokuapp.com/"
+                    >
+                      VIEW APP
+                    </a>
                   </p>
                   <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                    href="https://github.com/walkforr/wfPortfolio" >REPO</a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://github.com/walkforr/wfPortfolio"
+                    >
+                      REPO
+                    </a>
                   </p>
                 </div>
               </div>
             </div>
           </div>
-            
         </div>
       );
     } else if (this.state.activeTab === 1) {
@@ -214,20 +265,28 @@ class Projects extends Component {
               <div className="back">
                 <h4>CryptPro</h4>
                 <div className="appLinks">
-                  <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                      href="https://jtmccormick18.github.io/project1/" >VIEW APP</a>
-                  </p>
-                  <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                    href="https://github.com/jtmccormick18/project1" >REPO</a>
-                  </p>
+                  <a
+                    style={{ textDecoration: "none" }}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://jtmccormick18.github.io/project1/"
+                  >
+                    <p>VIEW APP</p>
+                  </a>
+                  <a
+                    style={{ textDecoration: "none" }}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/jtmccormick18/project1"
+                  >
+                    <p>REPO</p>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 
- <div
+          <div
             shadow={5}
             style={{ minWidth: "450", margin: "20px" }}
             className="card"
@@ -249,18 +308,28 @@ class Projects extends Component {
                 <h4>CryptPro</h4>
                 <div className="appLinks">
                   <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                      href="https://warm-earth-30735.herokuapp.com/" >VIEW APP</a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://warm-earth-30735.herokuapp.com/"
+                    >
+                      VIEW APP
+                    </a>
                   </p>
-                  <p>
-                    <a style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank"
-                    href="https://github.com/walkforr/GrocerEasy" >REPO</a>
-                  </p>
+                  <a
+                    style={{ textDecoration: "none" }}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/walkforr/GrocerEasy"
+                  >
+                    <p>REPO</p>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          </div>
+        </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
@@ -275,7 +344,7 @@ class Projects extends Component {
         </div>
       );
     }
-  } 
+  }
 
   render() {
     return (
