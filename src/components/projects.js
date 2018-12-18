@@ -358,7 +358,7 @@ class Projects extends Component {
                       style={{ textDecoration: "none" }}
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="hhttps://traxn-beta.herokuapp.com/"
+                      href="https://traxn-beta.herokuapp.com/"
                     >
                       <p>VIEW APP</p>
                     </a>
