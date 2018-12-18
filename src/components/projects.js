@@ -329,6 +329,53 @@ class Projects extends Component {
               </div>
             </div>
           </div>
+
+          <div
+            shadow={5}
+            style={{ minWidth: "450", margin: "20px" }}
+            className="card"
+          >
+            <div className="card-content">
+              <div className="front">
+                <h4>Traxn(social-media app)</h4>
+                <div className="techBoxes">
+                  <p>html</p>
+                  <p>scss</p>
+                  <p>js</p>
+                  <p>node</p>
+                  <p>axios</p>
+                  <p>MongoDB</p>
+                  <p>React</p>
+                  <p>Bcrypt</p>
+                  <p>JWT</p>
+                </div>
+              </div>
+              <div className="back">
+                <h4>CryptPro</h4>
+                <div className="appLinks">
+                  
+                    <a
+                      style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="hhttps://traxn-beta.herokuapp.com/"
+                    >
+                      <p>VIEW APP</p>
+                    </a>
+                  
+                  <a
+                    style={{ textDecoration: "none" }}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/Huhspaniel/traxn"
+                  >
+                    <p>REPO</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       );
     } else if (this.state.activeTab === 2) {
