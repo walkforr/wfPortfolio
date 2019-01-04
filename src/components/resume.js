@@ -68,7 +68,7 @@ Fast learner, extremely hard worker and team player who is constantly improving 
                 progress={90}
                 />
                 <Skills
-                  skill="CSS/SCSS"
+                  skill="HTML/SCSS"
                   progress={90}
                   />
                   <Skills
