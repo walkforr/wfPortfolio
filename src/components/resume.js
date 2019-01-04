@@ -22,9 +22,9 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Walker Forrester</h2>
             <h4 style={{color: 'grey'}}>Software Developer</h4>
             <hr style={{borderTop: '3px solid #000', width: '50%'}}/>
-            <p>Junior Full Stack Web Developer able to build a Web presence from the ground up.
+            <p>Full Stack Web Developer able to build a Web presence from the ground up.
 Skilled at writing reusable and modern code as well as working under pressure and meeting deadlines.
-Fast learner, extremely hard worker and team player who is constantly improving and pushing hisself to learn more.</p>
+Fast learner, extremely hard worker and team player who is constantly improving and pushing himself to learn more.</p>
             <hr style={{borderTop: '3px solid #000', width: '50%'}}/>
             <h5>Address</h5>
             <p>5475 Kent Rock RD, Loganville, GA, 30052</p>
@@ -39,27 +39,27 @@ Fast learner, extremely hard worker and team player who is constantly improving 
             <Education
               startYear={2018}
               schoolName="Georgia Tech Coding Bootcamp"
-              schoolDescription="Learned the fundamentals of Frontend and Backend. Worked on group projects inside of Github. Experience with object oriented and functional programming."
+              schoolDescription="An intensive 12-week boot camp dedicated to designing and building web applications. Skills learned consisted of HTML5, CSS3, Javascript, jQuery, Bootstrap, Node Js, MySQL, Sequelize, MongoDB, Mongoose, Express, Handlebars JS, & React Js. Learned the fundamentals of Frontend and Backend. Worked on group projects inside of Github. Experience with object oriented and functional programming."
                />
                 <hr style={{borderTop: '3px solid #fff'}} />
               <h2>Experience</h2>
-              <Experience
+                <Experience
+                startYear={2018}
+                endYear={"Now"}
+                jobName="Traxn (social media web app)"
+                jobDescription="Worked on the frontend and designed the UI for a social media web app. Currently working on optimizing the application as well as bringing it to mobile devices via React Native."
+                />
+                <Experience
+                startYear={2018}
+                endYear={"Now"}
+                jobName="Grocer-Easy(Market/Product finder)"
+                jobDescription="Created a many-to-many relationship SQL database w/ Sequelize.js + created a “places near me” feature for a store finder app. Planning to remake the app for mobile devices and seek out clients to add their store's products to the app's database."
+                />
+                <Experience
                 startYear={2014}
-                endYear={2018}
+                endYear={"Now"}
                 jobName="Music Producer/Engineer"
                 jobDescription="Freelance beat producer and audio engineer. Experience in meeting customers needs + paying attention to detail + bringing an artistic approach to the work space."
-                />
-                <Experience
-                startYear={2014}
-                endYear={2015}
-                jobName="Hatcher Electric"
-                jobDescription="Worked as an electrician assistant dealing with problem solving and beating deadlines. Experience working long hours + learning how to work with others."
-                />
-                <Experience
-                startYear={2015}
-                endYear={2016}
-                jobName="Accurate Fence"
-                jobDescription="Built fences as a laborer. Experience working long hours + talking with customers and meeting their needs + working to beat deadlines + problem solving."
                 />
               <hr style={{borderTop: '3px solid #fff'}} />
               <h2>Skills</h2>
@@ -76,7 +76,7 @@ Fast learner, extremely hard worker and team player who is constantly improving 
                     progress={90}
                     />
                     <Skills
-                    skill="MongoDB"
+                    skill="Mongoose"
                     progress={75}
                     />
                     <Skills
@@ -85,11 +85,11 @@ Fast learner, extremely hard worker and team player who is constantly improving 
                     />
                     <Skills
                       skill="React"
-                      progress={55}
+                      progress={90}
                       />
                       <Skills
-                      skill="Swift"
-                      progress={15}
+                      skill="React Native"
+                      progress={70}
                       />
           </Cell>
         </Grid>
